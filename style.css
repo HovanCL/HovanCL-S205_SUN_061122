@@ -1,0 +1,86 @@
+.main{
+    position:relative;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightgray
+    }
+  
+  
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: dodgerblue;
+      color: white;
+    }
+  
+    li a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+  
+  
+    img {
+      width: 20%;padding-right:10px
+    }
+  
+    .footer li, .nav li {
+      float: left;
+    }
+    
+    .nav {
+      position: fixed; top:0; width: 100%
+    }
+  
+    .footer {
+      position: fixed; bottom:0; width: 100%
+    }
+  
+    .page {
+      margin-top: 20px;
+      padding-top: 20px
+    }
+  
+    .content {
+      float: right;
+      width: 80%;
+      margin: 5px;
+    }
+  
+    .menu { 
+      float: left;
+      width: 15%;
+      margin: 10px;
+    }
+  
+    .menu ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      background-color: white
+    }
+  
+    .menu li{
+      padding: 8px;
+      margin-bottom: 8px;
+      background-color: lightgray
+    }
+  
+    .menu li:hover{
+      background-color: dodgerblue;
+    }
+  
+    p {
+      padding: 8px;
+    }
